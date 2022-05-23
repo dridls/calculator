@@ -1,0 +1,82 @@
+* {
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 400px;
+  background-color: #2b2832;
+  color: white;
+}
+
+.screen {
+  text-align: right;
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+  font-weight: lighter;
+  padding: 20px 5px;
+  font-size: 60px;
+}
+
+.calc-button-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.double {
+  flex-basis: 49.65%;
+  background-color: #5f5c63;
+  color: white;
+  border: none;
+  height: 100px;
+  margin-top: 0.6%;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.calc-button-number {
+  background-color: #5f5c63;
+  color: white;
+  border: none;
+  height: 100px;
+  flex-basis: 24.5%;
+  margin-top: 0.6%;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.calc-button-sign {
+  background-color: #f2a33c;
+  color: white;
+  border: none;
+  height: 100px;
+  flex-basis: 24.5%;
+  margin-top: 0.6%;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.calc-button-top {
+  background-color: #3f3c43;
+  color: white;
+  border: none;
+  height: 100px;
+  flex-basis: 24.5%;
+  margin-top: 0.6%;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.click {
+  background-color: #a3a0a2;
+}
