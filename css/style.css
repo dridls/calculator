@@ -58,7 +58,7 @@ body {
   font-weight: lighter;
 }
 
-.calc-button-sign {
+.calc-button-symbol {
   background-color: #f2a33c;
   color: white;
   border: none;
@@ -69,7 +69,7 @@ body {
   font-weight: lighter;
 }
 
-.calc-button-sign:hover {
+.calc-button-symbol:hover {
   background-color: #c0812d;
 }
 
